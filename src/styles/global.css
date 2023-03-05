@@ -1,0 +1,61 @@
+:root{
+  --bg:#0D1117;
+  --text: white;
+}
+
+.top-text{
+  position: relative;
+  width: 100%;
+  min-height: max-content;
+}
+.text-lg{
+  font-size: 28px;
+  font-family: font;
+  font-weight: bolder;
+}
+
+.text-sm{
+  color: var(--text2);
+  font-size: 18px;
+  font-family: font;
+  font-weight: 100;
+}
+.text-to-sm{
+  color: var(--text2);
+  font-size: 14px;
+  font-family: font;
+  font-weight: 100;
+}
+.container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.center{
+  justify-content: center;
+  place-items: center;
+}
+.text-main-color{
+  color: var(--text);
+}
+.text-sec-color{
+  color: var(--text2);
+}
+
+@font-face {
+  font-family: font;
+  src: url(../../files/font/IRANSansWeb_Black.ttf);
+}

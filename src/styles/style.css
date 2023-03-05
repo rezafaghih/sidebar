@@ -1,0 +1,71 @@
+.navbar-contaienr{
+  position: fixed;
+  width: 350px;
+  height: 95vh;
+  left: 10px;
+  top: 2.5vh;
+  border-radius: 10px;
+  background-color: var(--bg);
+}
+.navbar-contaienr .top-side-image{
+  position: relative;
+  width: 100%;
+  min-height: max-content;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+  padding-bottom: 10px;
+}
+.navbar-buttons{
+  position: relative;
+  width: 100%;
+  height: max-content;
+  margin-top: 30px;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.navbar-buttons button{
+  width: 80%;
+  height: 45px;
+  background-color: #000000;
+  color:white;
+  font-family: font;
+  padding: 25px 0px;
+  border: none;
+  border-radius: 30px;
+  transition: 500ms;
+  cursor: pointer;
+}
+.navbar-buttons button svg{
+  width: 30px;
+  position: absolute;
+  left: 50px;
+  height: 30px;
+  padding: 5px;
+  color:rgb(56, 55, 55);
+  background-color: white;
+  border-radius: 100%;
+  transition: 500ms;
+}
+
+.navbar-buttons button[act]{
+  background-color: rgb(230, 230, 230);
+  color:black;
+  width: 90%;
+}
+.navbar-buttons button[act] svg{
+  background-color: #292828;
+  color:white;
+}
+
+.navbar-contaienr .top-side-image>img{
+  width: 100px;
+  height:100px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
+.navbar-contaienr .top-side-image>span{
+  font-family: font;
+  color:white;
+}
